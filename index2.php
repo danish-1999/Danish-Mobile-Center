@@ -41,7 +41,7 @@
 <div class="container">
 	<div class="row mt-2 pb-3">
 		<?php
-			include 'config.php';
+			include '/Danish-Mobile-Center/config.php';
 			$stmt = $conn->prepare("SELECT * FROM product");
 			$stmt->execute();
 			$result = $stmt->get_result();
